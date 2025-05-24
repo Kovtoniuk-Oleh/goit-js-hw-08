@@ -1,0 +1,61 @@
+
+body {
+margin-top: 134px;
+  /* padding-bottom: 50px; */
+}  
+
+.container {
+    /* width: 1400px;
+    margin: 0 auto; */
+    width: 1400px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.gallery {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    padding: 0;
+    width: 1128px;
+    object-fit: cover;
+    margin: 0 auto;
+    transition: transform 0.3s ease-in-out;
+    object-fit: cover; 
+    margin: 0 auto; 
+    transition: transform 0.3s ease-in-out; 
+}
+
+
+.gallery-item {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    width: 360px; 
+    height: 200px; 
+}
+
+.gallery-image {
+    display: block;
+    width: 360px; 
+    height: 200px; 
+    object-fit: cover; 
+    margin: 0 auto; 
+    transition: transform 0.3s ease-in-out; /* Плавна анімація */
+}
+
+.gallery-image:hover {
+  transform: scale(1.044, 1.04); /* Збільшення */
+}
+
+.gallery-image:active {
+  transform: scale(1); /* Повертаємо до звичайного розміру при кліку */
+}
+
+.basicLightbox--visible {
+    background: rgba(46, 47, 66, 0.8);
+}
+
+
+
